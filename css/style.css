@@ -1,111 +1,70 @@
 * {box-sizing: border-box;}
 
-body {
-	padding-top: 80px;
+.camisetas .thumbnail {
+  min-height: 320px;
 }
 
-@media (max-width: 768px){
-	.search {
-		padding-bottom: 60px;
-	}
+.categorías {
+	padding-top:20px
 }
 
-@media (min-width: 500px){
-	.motion {
-		padding-top: 10px;
-		padding-bottom: 8px;
-	}
+#tablets {
+  margin-bottom: 10px;
+  display:  none;
 }
 
-@media (max-width: 768px){
-	.motion {
-		padding-top: 10px;
-		padding-bottom: 8px;
-	}
+#products{
+  margin-top: 20px;
 }
 
-@media (min-width: 500px){
-	.underground {
-		padding-bottom: 7px;
-	}
+#detalles {
+	padding-top:20px
 }
 
-@media (max-width: 768px){
-	.underground {
-		font-size: 12.6px;
-		/*margin-left: 15px;
-		margin-right: -10px;*/
-    }
+.panel {
+	margin-top:20px;
 }
 
-@media (max-width: 500px){
-	.underground {
-		margin-left: 15px;
-		margin-right: -10px;
-	}
+.tab-pane {
+	margin-top:20px ;margin-bottom:20px; text-align:justify;
 }
 
-@media (min-width: 500px){
-	.domingo {
-		margin-left: 15px;
-		margin-right: -10px;
-	}
+@media (min-width: 991px) and (max-width: 1200px) {
+  #search {
+    display: none;
+  }
+  #tablets {
+     display: inline-table;
+     padding-bottom: 20px;
+  }
 }
 
-@media (max-width: 768px){
-	.domingo {
-		margin-left: -18px;
-		margin-right: 26px;
-	}
-	.santo {
-	    font-size: 24px;
-    }
-}
+@media (max-width: 990px) {
+  #search {
+    display: none;
+  }
+  
+  #tablets {
+   display: inline-table;
+   padding-bottom: 20px;
 
-@media (max-width: 500px){
-	.domingo {
-		margin-left: 10px;
-		margin-right: 20px;
-		padding-bottom: 20px;
-	}
-    .santo {
-	    font-size: 19.3px;
-	}
-}
+  }
+  .caption h3{
+    font-size: 12px;
+    font-weight: bold;
+  }
+  .caption {
+    font-size: 10px;
+  }
+  .caption p a{
+    font-size:90%;
+    margin-top: 5px;
+    display: block;
+  }
+  .camisetas .thumbnail {
 
-@media (min-width: 500px){
-	.cool {
-		margin-left: 5px;
-		margin-right: 20px;
-		padding-top: 15px;
-	}
-}
+    min-height: 280px;
+  }
 
-@media (max-width: 768px){
-	.cool {
-		margin-left: 15px;
-		margin-right: 15px;
-		margin-top: -446px;
-	}
-}
 
-@media (max-width: 500px){
-	.cool {
-		margin-left: 45px;
-		margin-right: -10px;
-		margin-top: 2px;
-	}
-}
-
-.carousel {
-	margin-top: -33px;
-}
-
-.camisetas {
-	margin-top: 20px;
-	margin-right: -10px;
-}
-
-.lorem {
-	margin-top: 10px;
 }
